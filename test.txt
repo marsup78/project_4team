@@ -7,3 +7,19 @@ git remote add origin https://github.com/marsup78/project_.git
 
 ### 연결확인
 git remote -v
+
+
+## 원격 레파지터리 받기
+github Setting - Collaboratos - [Add people]
+
+## 원격 레파지터리 받는 쪽
+1. 팀 폴더를 만들기
+2. 팀 폴더 기반으로 vscode 열기
+3. git clone [git url]
+4. clone받은 폴더 기준으로 vscode 다시 열기
+
+## 충돌 났을 때.
+1. git pulll origin main 으로 강제로 코드 가져오기
+2. (설정 알림이 나오면) git config pull.rebase false
+3. 격자무늬 충돌알림 크보고 최종 코드 결정해서 저장하기
+4. add, commit, push 하기
