@@ -1,0 +1,9 @@
+프로젝트 생성
+
+## git 로컬 레파지터리 생성
+git init
+
+git remote add origin https://github.com/marsup78/project_.git
+
+### 연결확인
+git remote -v
